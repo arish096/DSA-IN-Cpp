@@ -13,8 +13,8 @@ Welcome to my DSA learning journey!
 ## Topics Covered
 - ✅ Variables & Data Types
 - ✅ Operators
-- ⏳ If Else
-- ⏳ Loops
+- ✅ If Else
+- ✅ Loops
 - ⏳ Functions
 - ⏳ Arrays
 - ⏳ Strings
