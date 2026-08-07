@@ -15,6 +15,8 @@ Welcome to my DSA learning journey!
 - ✅ Operators
 - ✅ If Else
 - ✅ Loops
+- ✅ Nested Loops
+- ✅ Patterns
 - ⏳ Functions
 - ⏳ Arrays
 - ⏳ Strings
