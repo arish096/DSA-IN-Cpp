@@ -17,7 +17,7 @@ Welcome to my DSA learning journey!
 - ✅ Loops
 - ✅ Nested Loops
 - ✅ Patterns
-- ⏳ Functions
+- ✅ Functions
 - ⏳ Arrays
 - ⏳ Strings
 - ⏳ Pointers
