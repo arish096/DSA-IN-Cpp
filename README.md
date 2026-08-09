@@ -18,6 +18,7 @@ Welcome to my DSA learning journey!
 - ✅ Nested Loops
 - ✅ Patterns
 - ✅ Functions
+- ✅ Binary Number System
 - ⏳ Arrays
 - ⏳ Strings
 - ⏳ Pointers
