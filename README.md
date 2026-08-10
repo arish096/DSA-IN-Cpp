@@ -19,6 +19,7 @@ Welcome to my DSA learning journey!
 - ✅ Patterns
 - ✅ Functions
 - ✅ Binary Number System
+- ✅ Bitwise Operators
 - ⏳ Arrays
 - ⏳ Strings
 - ⏳ Pointers
