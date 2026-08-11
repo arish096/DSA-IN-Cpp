@@ -20,7 +20,7 @@ Welcome to my DSA learning journey!
 - ✅ Functions
 - ✅ Binary Number System
 - ✅ Bitwise Operators
-- ⏳ Arrays
+- ✅ Arrays
 - ⏳ Strings
 - ⏳ Pointers
 - ⏳ Recursion
