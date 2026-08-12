@@ -21,6 +21,7 @@ Welcome to my DSA learning journey!
 - ✅ Binary Number System
 - ✅ Bitwise Operators
 - ✅ Arrays
+- ✅ Vectors
 - ⏳ Strings
 - ⏳ Pointers
 - ⏳ Recursion
