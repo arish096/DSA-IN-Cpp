@@ -22,8 +22,8 @@ Welcome to my DSA learning journey!
 - ✅ Bitwise Operators
 - ✅ Arrays
 - ✅ Vectors
+- ✅ Pointers
 - ⏳ Strings
-- ⏳ Pointers
 - ⏳ Recursion
 - ⏳ Searching
 - ⏳ Sorting
