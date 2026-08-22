@@ -23,6 +23,7 @@ Welcome to my DSA learning journey!
 - ✅ Arrays
 - ✅ Vectors
 - ✅ Pointers
+- ✅ Binary Search Algorithm
 - ⏳ Strings
 - ⏳ Recursion
 - ⏳ Searching
