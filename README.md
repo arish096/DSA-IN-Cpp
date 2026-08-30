@@ -24,10 +24,9 @@ Welcome to my DSA learning journey!
 - ✅ Vectors
 - ✅ Pointers
 - ✅ Binary Search Algorithm
+- ✅ Sorting
 - ⏳ Strings
-- ⏳ Recursion
-- ⏳ Searching
-- ⏳ Sorting
+- ⏳ Recursion  
 - ⏳ STL
 - ⏳ Linked List
 - ⏳ Stack
