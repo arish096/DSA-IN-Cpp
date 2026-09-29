@@ -1,0 +1,14 @@
+#include <iostream>
+#include <utility>
+
+using namespace std;
+
+int main() {
+    // Creating a pair to store two heterogeneous values
+    pair<int, string> p = {1, "Apna College"};
+    
+    cout << "First element: " << p.first << "\n";
+    cout << "Second element: " << p.second << "\n";
+
+    return 0;
+}
