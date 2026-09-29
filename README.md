@@ -25,9 +25,9 @@ Welcome to my DSA learning journey!
 - ✅ Pointers
 - ✅ Binary Search Algorithm
 - ✅ Sorting
+- ✅ STL
 - ⏳ Strings
 - ⏳ Recursion  
-- ⏳ STL
 - ⏳ Linked List
 - ⏳ Stack
 - ⏳ Queue
