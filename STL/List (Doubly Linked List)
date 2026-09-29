@@ -1,0 +1,22 @@
+#include <iostream>
+#include <list>
+
+using namespace std;
+
+int main() {
+    list<int> l;
+
+    l.push_back(10);  // Insert at back
+    l.push_front(5);  // Insert at front (O(1) complexity)
+
+    cout << "List elements: ";
+    for(int val : l) {
+        cout << val << " ";
+    }
+    cout << "\n";
+
+    l.pop_back();     // Removes last element
+    l.pop_front();    // Removes first element
+
+    return 0;
+}
