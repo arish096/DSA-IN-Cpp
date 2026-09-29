@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     // Creating a pair to store two heterogeneous values
-    pair<int, string> p = {1, "Apna College"};
+    pair<int, string> p = {1, "Arish Islam"};
     
     cout << "First element: " << p.first << "\n";
     cout << "Second element: " << p.second << "\n";
