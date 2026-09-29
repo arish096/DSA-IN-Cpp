@@ -1,0 +1,19 @@
+#include <iostream>
+#include <deque>
+
+using namespace std;
+
+int main() {
+    deque<int> dq;
+
+    dq.push_back(10);   // Insert at back
+    dq.push_front(20);  // Insert at front
+
+    cout << "Front: " << dq.front() << "\n";
+    cout << "Back: " << dq.back() << "\n";
+
+    dq.pop_back();      // Removes from back
+    dq.pop_front();     // Removes from front
+
+    return 0;
+}
