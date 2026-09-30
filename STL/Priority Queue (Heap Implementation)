@@ -1,0 +1,25 @@
+#include <iostream>
+#include <queue>
+
+using namespace std;
+
+int main() {
+    // Max-Heap by default (largest element stays at top)
+    priority_queue<int> pq;
+    pq.push(10);
+    pq.push(50);
+    pq.push(30);
+
+    cout << "Max-Heap Top (Largest): " << pq.top() << "\n";
+    pq.pop();
+
+    // Min-Heap syntax (smallest element stays at top)
+    priority_queue<int, vector<int>, greater<int>> minpq;
+    minpq.push(10);
+    minpq.push(50);
+    minpq.push(30);
+
+    cout << "Min-Heap Top (Smallest): " << minpq.top() << "\n";
+
+    return 0;
+}
