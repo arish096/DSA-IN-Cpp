@@ -1,0 +1,25 @@
+#include <iostream>
+#include <map>
+
+using namespace std;
+
+int main() {
+    map<int, string> m;
+
+    // Inserting elements
+    m[1] = "Aman";
+    m[2] = "Shradha";
+    m[3] = "College";
+
+    cout << "Map elements:\n";
+    for(auto pair : m) {
+        cout << pair.first << " : " << pair.second << "\n";
+    }
+
+    // Searching for a key
+    if(m.count(2)) {
+        cout << "Key 2 exists with value: " << m[2] << "\n";
+    }
+
+    return 0;
+}
