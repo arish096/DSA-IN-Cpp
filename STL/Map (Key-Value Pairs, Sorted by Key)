@@ -7,8 +7,8 @@ int main() {
     map<int, string> m;
 
     // Inserting elements
-    m[1] = "Aman";
-    m[2] = "Shradha";
+    m[1] = "Arish";
+    m[2] = "Saif";
     m[3] = "College";
 
     cout << "Map elements:\n";
