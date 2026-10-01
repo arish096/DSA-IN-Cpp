@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    char sentence[100];
+
+    cout << "Enter a sentence: ";
+    // cin.getline reads spaces as well, unlike normal cin
+    cin.getline(sentence, 100); 
+
+    cout << "You entered: " << sentence << "\n";
+
+    return 0;
+}
