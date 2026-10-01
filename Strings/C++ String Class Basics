@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    // Dynamic string declaration
+    string str = "Apna College";
+
+    cout << "String: " << str << "\n";
+    cout << "Length of string: " << str.length() << "\n";
+
+    // Modifying string
+    str += " C++ Course";
+    cout << "Updated String: " << str << "\n";
+
+    return 0;
+}
