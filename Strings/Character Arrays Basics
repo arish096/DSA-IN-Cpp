@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cstring> // For strlen
+
+using namespace std;
+
+int main() {
+    // Declaring a character array (C-style string)
+    // Note: Always add +1 extra size for the null terminator ('\0')
+    char ch[10] = "hello";
+
+    cout << "Character array: " << ch << "\n";
+    cout << "Length using strlen: " << strlen(ch) << "\n";
+
+    return 0;
+}
