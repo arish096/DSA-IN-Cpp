@@ -90,7 +90,7 @@ The goal is not just to complete topics, but to understand **how and why algorit
 
 ### 🧵 Strings & Recursion
 
-- [ ] Strings
+- [x] Strings
 - [ ] Recursion
 
 ### 🔗 Linear Data Structures
