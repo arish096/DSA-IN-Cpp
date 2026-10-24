@@ -146,6 +146,7 @@ My practice focuses on:
 - [x] Linear Search
 - [x] Binary Search
 - [x] Sorting
+- [x] 2D Arrays
 
 ## ⚙️ 4. C++ STL
 
@@ -216,6 +217,7 @@ DSA-IN-Cpp/
 ├── Binary-Number-System/
 ├── Bitwise-Operators/
 ├── Arrays/
+├── 2D Arrays/
 ├── Vectors/
 ├── Pointers/
 ├── Linear-Search/
