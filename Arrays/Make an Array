@@ -1,0 +1,57 @@
+#include <iostream>
+#include <vector>
+#include <numeric>
+#include <algorithm>
+
+using namespace std;
+
+long long solve(int N, const vector<long long>& A) {
+    // If the array has only 1 element
+    if (N == 1) {
+        return (A[0] == 0) ? 0 : -1;
+    }
+
+    long long sumA = 0;
+    long long maxA = 0;
+
+    for (int i = 0; i < N; ++i) {
+        sumA += A[i];
+        if (A[i] > maxA) {
+            maxA = A[i];
+        }
+    }
+
+    // Condition 1: Total sum must be divisible by (N - 1)
+    if (sumA % (N - 1) != 0) {
+        return -1;
+    }
+
+    long long K = sumA / (N - 1);
+
+    // Condition 2: The largest element cannot exceed the total number of operations
+    if (maxA <= K) {
+        return K;
+    } else {
+        return -1;
+    }
+}
+
+int main() {
+    // Optimize standard I/O operations for performance
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    int T;
+    if (cin >> T) {
+        while (T--) {
+            int N;
+            cin >> N;
+            vector<long long> A(N);
+            for (int i = 0; i < N; ++i) {
+                cin >> A[i];
+            }
+            cout << solve(N, A) << "\n";
+        }
+    }
+    return 0;
+}
