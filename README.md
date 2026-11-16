@@ -4,6 +4,7 @@
   <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/Data%20Structures%20%26%20Algorithms-Learning-7C3AED?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Problem%20Solving-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+  <img src="https://img.shields.io/badge/HackerEarth-171329?style=for-the-badge&logo=hackerearth&logoColor=9B8CFF" alt="HackerEarth" />
   <img src="https://img.shields.io/badge/Status-Active-22C55E?style=for-the-badge" />
 </p>
 
@@ -61,11 +62,17 @@ Alongside this repository, I also solve coding problems on **LeetCode** to apply
   <a href="https://leetcode.com/u/Arish_Islam/">
     <img src="https://img.shields.io/badge/LeetCode-Arish__Islam-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
   </a>
+  <a href="https://www.hackerearth.com/@arishislam096/" target="_blank">
+  <img src="https://img.shields.io/badge/HackerEarth-171329?style=for-the-badge&logo=hackerearth&logoColor=9B8CFF" alt="HackerEarth" />
+  </a>
 </p>
 
 <p align="center">
   <a href="https://leetcode.com/u/Arish_Islam/">
     <img src="https://img.shields.io/badge/Practice%20Problems-LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" />
+  </a>
+  <a href="https://www.hackerearth.com/@arishislam096/" target="_blank">
+  <img src="https://img.shields.io/badge/HackerEarth-171329?style=flat-square&logo=hackerearth&logoColor=9B8CFF" alt="HackerEarth" />
   </a>
   <a href="https://github.com/arish096/DSA-IN-Cpp">
     <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
@@ -74,7 +81,7 @@ Alongside this repository, I also solve coding problems on **LeetCode** to apply
 
 **My LeetCode profile:** [Arish_Islam](https://leetcode.com/u/Arish_Islam/)
 
----
+**My HackerEarth profile:** [Arish Islam](https://www.hackerearth.com/@arishislam096/)
 
 ---
 
@@ -118,6 +125,7 @@ My practice focuses on:
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+  <img src="https://img.shields.io/badge/HackerEarth-171329?style=for-the-badge&logo=hackerearth&logoColor=9B8CFF" alt="HackerEarth" />
 </p>
 
 ---
@@ -256,6 +264,9 @@ DSA-IN-Cpp/
   <a href="https://leetcode.com/u/Arish_Islam/">
     <img src="https://img.shields.io/badge/Solve-My%20LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
   </a>
+  <a href="https://www.hackerearth.com/@arishislam096/" target="_blank">
+  <img src="https://img.shields.io/badge/HackerEarth-171329?style=for-the-badge&logo=hackerearth&logoColor=9B8CFF" alt="HackerEarth" />
+  </a>
 </p>
 
 ---
@@ -268,6 +279,9 @@ DSA-IN-Cpp/
   </a>
   <a href="https://leetcode.com/u/Arish_Islam/">
     <img src="https://img.shields.io/badge/LeetCode-Arish__Islam-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+  </a>
+  <a href="https://www.hackerearth.com/@arishislam096/" target="_blank">
+  <img src="https://img.shields.io/badge/HackerEarth-171329?style=for-the-badge&logo=hackerearth&logoColor=9B8CFF" alt="HackerEarth" />
   </a>
 </p>
 
