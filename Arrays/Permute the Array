@@ -1,0 +1,48 @@
+#include <iostream>
+#include <vector>
+#include <unordered_map>
+
+using namespace std;
+
+void solve() {
+    int n, k;
+    cin >> n >> k;
+    
+    unordered_map<int, int> frequency_map;
+    for (int i = 0; i < n; ++i) {
+        int element;
+        cin >> element;
+        frequency_map[element]++;
+    }
+    
+    // Each periodic element must repeat exactly x times
+    int required_frequency = n / k;
+    bool possible = true;
+    
+    for (const auto& [element, count] : frequency_map) {
+        if (count % required_frequency != 0) {
+            possible = false;
+            break;
+        }
+    }
+    
+    if (possible) {
+        cout << "YES\n";
+    } else {
+        cout << "NO\n";
+    }
+}
+
+int main() {
+    // Fast I/O for competitive programming performance
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    
+    int t;
+    cin >> t;
+    while (t--) {
+        solve();
+    }
+    
+    return 0;
+}
