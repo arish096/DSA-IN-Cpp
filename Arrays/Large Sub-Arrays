@@ -1,0 +1,105 @@
+
+#include <bits/stdc++.h>
+using namespace std;
+
+using ll = long long;
+using i128 = __int128_t;
+
+const ll MOD = 1000000007LL;
+
+void solve() {
+    ll N, M, K;
+    cin >> N >> M >> K;
+
+    vector<ll> A(N);
+    vector<ll> P(N + 1, 0);
+
+    for (int i = 0; i < N; i++) {
+        cin >> A[i];
+        P[i + 1] = P[i] + A[i];
+    }
+
+    ll S = P[N];
+
+    i128 ans = 0;
+
+    for (int i = 0; i < N; i++) {
+
+        // Maximum valid subarray length
+        // starting at position i in infinite repeated array
+
+        ll tail = S - P[i];
+        ll len = 0;
+
+        if (K < tail) {
+
+            // Subarray ends within the current block
+
+            auto it = upper_bound(
+                P.begin() + i + 1,
+                P.end(),
+                P[i] + K
+            );
+
+            len = it - (P.begin() + i + 1);
+
+        } else {
+
+            // Subarray crosses one or more blocks
+
+            ll remaining = K - tail;
+
+            ll fullBlocks = remaining / S;
+            ll rem = remaining % S;
+
+            // Maximum prefix elements fitting in rem
+
+            auto it = upper_bound(
+                P.begin(),
+                P.end(),
+                rem
+            );
+
+            ll extra = (it - P.begin()) - 1;
+
+            len = (N - i)
+                + fullBlocks * N
+                + extra;
+        }
+
+        // Number of starting copies for which
+        // the available suffix is smaller than len
+
+        ll x = (len + i - 1) / N;
+
+        x = min(x, M);
+
+        // Sum of available lengths for first x copies
+
+        i128 part1 =
+            (i128)N * x * (x + 1) / 2
+            - (i128)i * x;
+
+        // Remaining copies contribute len each
+
+        i128 part2 = (i128)(M - x) * len;
+
+        ans = (ans + part1 + part2) % MOD;
+    }
+
+    cout << (ll)ans << '\n';
+}
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int T;
+    cin >> T;
+
+    while (T--) {
+        solve();
+    }
+
+    return 0;
+}
