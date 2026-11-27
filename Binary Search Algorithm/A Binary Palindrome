@@ -1,0 +1,67 @@
+
+#include <bits/stdc++.h>
+using namespace std;
+
+long long makePalindrome(long long p, int len) {
+    int k = (len + 1) / 2;
+    long long x = p;
+
+    int start = (len % 2 == 0 ? 0 : 1);
+
+    for (int i = start; i < k; i++) {
+        x = (x << 1) | ((p >> i) & 1);
+    }
+
+    return x;
+}
+
+void solve() {
+    long long n;
+    cin >> n;
+
+    if (n == 0) {
+        cout << 0 << '\n';
+        return;
+    }
+
+    int bits = 64 - __builtin_clzll(n);
+
+    long long ans = LLONG_MAX;
+
+    for (int len = max(1, bits - 1); len <= bits + 1; len++) {
+
+        int k = (len + 1) / 2;
+        int shift = len - k;
+
+        long long p = n >> shift;
+
+        long long low = 1LL << (k - 1);
+        long long high = (1LL << k) - 1;
+
+        for (int d = -1; d <= 1; d++) {
+            long long cur = p + d;
+
+            cur = max(low, min(high, cur));
+
+            long long val = makePalindrome(cur, len);
+
+            ans = min(ans, abs(n - val));
+        }
+    }
+
+    cout << ans << '\n';
+}
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    int t;
+    cin >> t;
+
+    while (t--) {
+        solve();
+    }
+
+    return 0;
+}
